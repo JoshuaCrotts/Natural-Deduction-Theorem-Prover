@@ -19,12 +19,6 @@ import java.util.Set;
 public final class PredicateNaturalDeductionValidator extends BaseNaturalDeductionValidator {
 
     /**
-     * Timeout iterator - if the number of iterations goes beyond this, we return
-     * a null proof.
-     */
-    private static int timeout = 1000;
-
-    /**
      * Set to keep track of all constants that are in the premises.
      */
     private final HashSet<Character> constants;
